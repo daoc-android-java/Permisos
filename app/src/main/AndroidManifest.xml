@@ -4,6 +4,7 @@
     package="ute.fcii.dsii.permisos">
     <dist:module dist:instant="true" />
 
+    <!-- A partir de: Android 6.0 / API 23 también es necesario pedirlos por código -->
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
     <application
